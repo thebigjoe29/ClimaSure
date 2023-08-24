@@ -156,12 +156,7 @@ class _videoState extends State<video> {
                       });
                       
                       var temperature=await getTemp(cityName, api);
-                      if(success){
-                        setState(() {
-                          isLoading=!isLoading;
-                        });
-                        
-                      }
+                      
                        
                       Navigator.push(
                             context,
