@@ -155,7 +155,7 @@ class _videoState extends State<video> {
                         
                       });
                       
-                      var temperature=await getTemp(cityName, api);
+                      var variable=await getData(cityName, api);
                       if(success){
                         setState(() {
                           isLoading=!isLoading;
@@ -166,7 +166,7 @@ class _videoState extends State<video> {
                       Navigator.push(
                             context,
                             PageTransition(
-                                child: weather(temperature:temperature),
+                                child: weather(variable:variable,cityName: cityName,),
                                 type: PageTransitionType.rightToLeft)
                             //MaterialPageRoute(builder: (context) => options()),
                             );

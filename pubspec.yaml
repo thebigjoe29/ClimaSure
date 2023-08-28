@@ -87,6 +87,9 @@ flutter:
     - family: MyFont2
       fonts:
         - asset: fonts/Jost-Light.ttf
+    - family: MyFont3
+      fonts:
+        - asset: fonts/static/Overpass-Regular.ttf
        
     # - family: Trajan Pro
     #   fonts:

@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "C:/Users/Asus/Desktop/demoapp/build/windows/_deps/nuget-subbuild"
 }
